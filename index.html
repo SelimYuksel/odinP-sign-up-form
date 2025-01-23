@@ -1,12 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Sign Up Form</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <section class="background-section">
+      <div class="background">
+        <img src="assets/background.jpg" alt="green leafy background" />
+      </div>
+      <div class="logo">
+        <img src="assets/odin-logo.png" alt="odin logo" class="odin-logo" />
+        <h1 class="logo-text">ODIN</h1>
+      </div>
+      <div class="background-credit">
+        <div>
+          Photo by
+          <a
+            href="https://unsplash.com/@haliewestphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Halie West</a
+          >
+          on
+          <a
+            href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash"
+            >Unsplash</a
+          >
+        </div>
+      </div>
+    </section>
+    <section class="form-section">
+      <div class="form-header">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help your realize your deepest dreams. Sign up
+          <span>now</span> to get started.
+        </p>
+        <p>You <span>know</span> you want to.</p>
+      </div>
+      <div class="signup">
+        <div class="form-header">
+            <h1>Let's do this!</h1>
+        </div>
+        <div class="form">
+            <form action="">
+                <div class="name-input">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name" required>
+                </div>
+                <div class="lname-input">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name" required>
+                </div>
+                <div class="email-input">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" required placeholder="joe@example.com">
+                </div>
+                <div class="phone-input">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" name="phone" id="phone" required>
+                </div>
+                <div class="password-input">
+                    <label for="pwd">PASSWORD</label>
+                    <input type="password" name="pwd" id="pwd" required min="8" max="20">
+                </div>
+                <div class="confirm-password">
+                    <label for="con-pwd">CONFIRM PASSWORD</label>
+                    <input type="password" name="con-pwd" id="con-pwd" required min="8" max="20">
+                </div>
+            </form>
+        </div>
+      </div>
+      <div class="create-account">
+        <button class="create-btn">Create Account</button>
+        <p>Already have an account? <span><a href="#" class="log-in-opt">Log in</a></span></p>
+      </div>
+    </section>
+  </body>
 </html>
