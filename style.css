@@ -5,6 +5,7 @@
   font-weight: normal;
   font-style: normal;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*Reset*/
 *,
@@ -90,6 +91,9 @@ h6 {
 
 .form-section {
   width: 65%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo {
@@ -124,4 +128,26 @@ h6 {
 .background-credit a {
   text-decoration: underline;
   color: #c4bebe;
+}
+
+.form-header {
+  font-family: "Roboto"; 
+  font-weight: 500;
+  font-size: 1.75em;
+  background-color: #cecece41;
+  width: 100%;
+  padding: 6em 4em 1em 2em;
+  line-height: normal;
+}
+
+.form-header p {
+  width: 75%;
+}
+
+.form-header p+p{
+  margin-bottom: 1em;
+}
+
+.form-header p span {
+  font-style: italic;
 }
