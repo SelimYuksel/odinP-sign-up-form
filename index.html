@@ -44,29 +44,28 @@
         <div class="signup-form">
           <form action="">
             <div class="name-input">
-              <label for="first-name">FIRST NAME</label>
+              <label for="first-name">FIRST NAME*</label>
               <input type="text" name="first-name" id="first-name" required />
             </div>
             <div class="lname-input">
-              <label for="last-name">LAST NAME</label>
+              <label for="last-name">LAST NAME*</label>
               <input type="text" name="last-name" id="last-name" required />
             </div>
             <div class="email-input">
-              <label for="email">EMAIL</label>
+              <label for="email">EMAIL*</label>
               <input
                 type="email"
                 name="email"
                 id="email"
                 required
-                placeholder="joe@example.com"
               />
             </div>
             <div class="phone-input">
               <label for="phone">PHONE NUMBER</label>
-              <input type="tel" name="phone" id="phone" required />
+              <input type="tel" name="phone" id="phone" pattern="[0-9]{5}[-][0-9]{7}[-][0-9]{1}"/>
             </div>
             <div class="password-input">
-              <label for="pwd">PASSWORD</label>
+              <label for="pwd">PASSWORD*</label>
               <input
                 type="password"
                 name="pwd"
@@ -77,7 +76,7 @@
               />
             </div>
             <div class="confirm-password">
-              <label for="con-pwd">CONFIRM PASSWORD</label>
+              <label for="con-pwd">CONFIRM PASSWORD*</label>
               <input
                 type="password"
                 name="con-pwd"
